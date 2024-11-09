@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 @RestController
 @RequestMapping("/incident")
 public class IncidentController {
-    @Autowired
+    
     private IncidentService incidentService;
 
     @PostMapping("create")
